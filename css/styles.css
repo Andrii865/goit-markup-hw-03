@@ -81,7 +81,8 @@ h1, h2, h3, h4, h5, h6, p{
       display: flex;
       align-items: center;
       gap: 40px;
-      padding: 24px,0;
+   padding-top: 24px;
+   padding-bottom: 24px;
       margin-right: 332px;
    }
 .nav-link{
@@ -223,10 +224,12 @@ height: 344px;
  .team{
    background-color: #f4f4fd;
    
+   
  }
  .container-team{
    width: 1440px;
       height: 732px;
+   
       padding-top: 120px;
       padding-bottom: 120px;
  }
@@ -255,7 +258,10 @@ height: 344px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
    gap: 24px;
-   width: calc((100% - 72px) / 4);
+   
+   }
+   .staff-list-one{
+      width: calc((100% - 72px) / 4);
    }
 .name-container{
    display: inline-flex;
@@ -273,7 +279,7 @@ height: 344px;
    display: flex;
    align-items: flex-start;
    gap: 32px;
-   margin: 72px 0 120px 0;
+   margin-top: 72px;
  }
  .name-list{
     font-weight: 500;
@@ -287,6 +293,7 @@ height: 344px;
  }
  .portfolio {
    padding-top: 120px;
+      padding-bottom: 120px
  }
  
    .portfolio-container{
@@ -348,29 +355,39 @@ height: 344px;
     letter-spacing: 0.02em;
     color: #2e2f42;
  }
+ .footer {
+    background-color: #2e2f42;
+   padding: 100px 0;
+
+   
+ }
  .container-footer{
-   width: 264px;
-      height: 112px;
-      align-items: start;
-padding: 100px 0 100px 0;
+   width: 1158px;
+   height: 112px;
+   padding: 0 15px;
+   margin: 0 auto;
+
       
  }
- .footer{
-    background-color: #2e2f42;
-   width: 1158px;
-      height: 112px;
-      padding: 0 15px;
-      margin: 0 auto;
-}
+ 
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
+.footer-logo{
+display: inline-block;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: row;
+   gap: 0px;
+   margin-bottom: 16px;
+}
+
 .paragraph-text{
-    font-size: 16px;
-    line-height: 24px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+   font-size: 16px;
+      line-height: 24px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
 }
 .footer-text{
    font-size: 16px;
@@ -378,5 +395,7 @@ padding: 100px 0 100px 0;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #f4f4fd;
+      width: 264px;
+      
 }
 
