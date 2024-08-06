@@ -70,7 +70,8 @@ h1, h2, h3, h4, h5, h6, p{
          
 }
 .header-logo{
-   padding: 24px,0;
+   padding-top: 24px;
+   padding-bottom: 24px;
    margin-right: 76px;
 }
 .header-logo .logo-part{
@@ -208,6 +209,7 @@ height: 344px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   margin-bottom: 8px;
 }
 .paragraph-text{
    font-family: "Roboto", sans-serif;
@@ -216,6 +218,7 @@ height: 344px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
+      text-align: center;
 }
  .team{
    background-color: #f4f4fd;
@@ -224,6 +227,8 @@ height: 344px;
  .container-team{
    width: 1440px;
       height: 732px;
+      padding-top: 120px;
+      padding-bottom: 120px;
  }
  .tittle-team{
    text-transform: capitalize;
@@ -233,7 +238,8 @@ height: 344px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 120px 0 0 0;
+    margin-bottom: 72px;
+    
  }
  .staff-list{
    background-color: #FFFFFF;
@@ -248,7 +254,21 @@ height: 344px;
    height: 380px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
+   gap: 24px;
+   width: calc((100% - 72px) / 4);
    }
+.name-container{
+   display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 8px;
+      width: 232px;
+      height: 56px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      margin-top: 32px;
+}
  .team-list{
    display: flex;
    align-items: flex-start;
@@ -258,23 +278,28 @@ height: 344px;
  .name-list{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px; 
-    line-height: 1.2;
+     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-   padding: 32px 49px 8px 49px;
- }
- .portfolio-container{
-   width: 1128px;
-      height: 1000px;
+   margin-bottom: 8px;
    
  }
+ .portfolio {
+   padding-top: 120px;
+ }
+ 
+   .portfolio-container{
+   width: 1128px;
+      height: 1000px;
+   }
+
  .images-list{
    width: 360px;
       height: 420px;
       background: #fff;
       border: 1px solid #e7e9fc;
+      
 }
 .portfolio-text{
    display: flex;
@@ -282,7 +307,7 @@ height: 344px;
       justify-content: center;
       flex-direction: column;
       gap: 8px;
-       padding: 32px 0 32px 0 ;
+       padding: 32px 0 32px 16px ;
 }
  .images-portfolio{
    width: 360px;
@@ -297,7 +322,7 @@ height: 344px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin: 120px 0 72px 0;
+    margin: 0 0 72px 0;
  }
  .portfolio-list{
     font-weight: 400;
@@ -311,6 +336,7 @@ height: 344px;
       padding: 0;
       margin: 0;
       gap: 24px;
+      
    
      
  }
