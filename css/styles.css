@@ -81,8 +81,6 @@ h1, h2, h3, h4, h5, h6, p{
       display: flex;
       align-items: center;
       gap: 40px;
-   padding-top: 24px;
-   padding-bottom: 24px;
       margin-right: 332px;
    }
 .nav-link{
@@ -91,6 +89,8 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   padding-top: 24px;
+      padding-bottom: 24px;
     }
 .nav-link:hover,
 .nav-link:focus{
@@ -258,10 +258,7 @@ height: 344px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
    gap: 24px;
-   
-   }
-   .staff-list-one{
-      width: calc((100% - 72px) / 4);
+   width: calc((100% - 72px) / 4)
    }
 .name-container{
    display: inline-flex;
