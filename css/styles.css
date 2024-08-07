@@ -223,6 +223,8 @@ height: 344px;
 }
  .team{
    background-color: #f4f4fd;
+   padding-top: 120px;
+   padding-bottom: 120px;
    
    
  }
@@ -230,8 +232,7 @@ height: 344px;
    width: 1440px;
       height: 732px;
    
-      padding-top: 120px;
-      padding-bottom: 120px;
+      
  }
  .tittle-team{
    text-transform: capitalize;
@@ -258,7 +259,7 @@ height: 344px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
    gap: 24px;
-   width: calc((100% - 72px) / 4)
+   
    }
 .name-container{
    display: inline-flex;
@@ -275,8 +276,9 @@ height: 344px;
  .team-list{
    display: flex;
    align-items: flex-start;
-   gap: 32px;
+   gap: 24px;
    margin-top: 72px;
+   flex-basis: calc((100% - 3 * 24px) / 4)
  }
  .name-list{
     font-weight: 500;
