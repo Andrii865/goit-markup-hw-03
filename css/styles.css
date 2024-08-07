@@ -298,13 +298,26 @@ height: 344px;
    .portfolio-container{
    width: 1128px;
       height: 1000px;
+      padding: 32px 16px;
+      
    }
 
  .images-list{
+   font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
    width: 360px;
       height: 420px;
       background: #fff;
       border: 1px solid #e7e9fc;
+      width: 33.33%;
+         /* Треть ширины контейнера для трёх столбцов */
+         box-sizing: border-box;
+         gap: 24px;
+         
+         
       
 }
 .portfolio-text{
@@ -328,24 +341,15 @@ height: 344px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin: 0 0 72px 0;
+    
+   margin-bottom: 8px
  }
  .portfolio-list{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-   display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      gap: 24px;
-      
-   
-     
- }
+   box-sizing: border-box;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+}
  .portfolio-tittle{
     font-weight: 500;
     font-size: 20px;
